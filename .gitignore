@@ -1,0 +1,59 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.env.local
+
+# ===============================
+# OS / Editor files
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Model / ML cache
+# ===============================
+.cache/
+.cache/huggingface/
+.huggingface/
+transformers_cache/
+
+# ===============================
+# Audio outputs (generated files)
+# ===============================
+*.mp3
+*.wav
+static/audio/
+
+# ===============================
+# FastAPI / Uvicorn
+# ===============================
+uvicorn.log
+
+# ===============================
+# Testing / coverage
+# ===============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ===============================
+# Build artifacts
+# ===============================
+build/
+dist/
+*.egg-info/

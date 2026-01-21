@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-dotenv
+transformers
+torch
+sentencepiece
+elevenlabs
+pydantic
+jinja2
+uuid
